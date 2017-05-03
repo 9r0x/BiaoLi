@@ -1,7 +1,7 @@
 import requests
 import json
 
-def TextEmo(sentence):
+def textemo(sentence):
     _url = "https://westus.api.cognitive.microsoft.com/text/analytics/v2.0/sentiment"
     headers = dict()
     headers['Content-Type'] = 'application/json'
@@ -12,5 +12,4 @@ def TextEmo(sentence):
     data = None
 
     response = requests.request( 'post', _url, json = json, headers = headers, params = params )
-    response = json.load(response.content)
-    return response
+    return json.dump(response.content)

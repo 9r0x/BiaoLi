@@ -2,7 +2,7 @@ import requests
 
 # pathToFileInDisk = r'/Users/grox/Desktop/image.jpg'
 
-def ImgEmo(path):
+def imgemo(path):
     with open( path, 'rb' ) as f:
         data = f.read()
     _url = 'https://westus.api.cognitive.microsoft.com/emotion/v1.0/recognize'
