@@ -12,4 +12,4 @@ def textemo(sentence):
     data = None
 
     response = requests.request( 'post', _url, json = json, headers = headers, params = params )
-    return json.dump(response.content)
+    return response.json()["documents"][0]["score"]
