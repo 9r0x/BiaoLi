@@ -2,11 +2,11 @@
 
 * Packages required
   - Requests ::
-#+BEGIN_SRC python
+#+BEGIN_SRC Python
 pip install Requests
 #+END_SRC
   - SpeechRecognition :: 
-#+BEGIN_SRC python
+#+BEGIN_SRC Python
 pip install SpeechRecognition
 #+END_SRC
 
