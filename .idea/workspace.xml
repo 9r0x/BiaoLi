@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f66a5607-60b7-4b89-bf26-d7a04a18da11" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ImgEmo.py" afterPath="$PROJECT_DIR$/ImgEmo.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TextEmo.py" afterPath="$PROJECT_DIR$/TextEmo.py" />
-    </list>
+    <list default="true" id="f66a5607-60b7-4b89-bf26-d7a04a18da11" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
