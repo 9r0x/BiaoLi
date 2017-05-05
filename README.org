@@ -1,12 +1,16 @@
 #+TITLE: BiaoLi
-#+AUTHOR: Grox Ni
 #+EMAIL: kamisama@lysin.tv
 #+LANGUAGE:  en
 
 * Packages required
-  - Requests :: src_zsh{pip install Requests}
+  - Requests ::
+#+BEGIN_SRC sh
+pip install Requests
+#+END_SRC
 
-  - SpeechRecognition :: src_zsh{pip install SpeechRecognition}
-
+  - SpeechRecognition ::
+#+BEGIN_SRC sh
+pip install SpeechRecognition
+#+END_SRC
      
 
