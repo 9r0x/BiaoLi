@@ -1,4 +1,5 @@
 #+TITLE: BiaoLi
+#+AUTHOR: Grox Ni
 #+EMAIL: kamisama@lysin.tv
 #+LANGUAGE:  en
 
