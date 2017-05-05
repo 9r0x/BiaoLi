@@ -1,1 +1,14 @@
 #+Title: BiaoLi
+
+* Packages required
+  - Requests ::
+#+BEGIN_SRC python
+pip install Requests
+#+END_SRC
+  - SpeechRecognition :: 
+#+BEGIN_SRC python
+pip install SpeechRecognition
+#+END_SRC
+
+     
+
