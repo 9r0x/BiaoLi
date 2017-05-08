@@ -13,5 +13,5 @@ def imgemo(path):
     params = None
 
     response = requests.request( 'post', _url, json = json, data = data, headers = headers, params = params )
-
-    return response.json()[0]["scores"]
+    response = response.json()[0]["scores"]["happiness"]-(response.json()[0]["scores"]["sadness"]+response.json()[0]["scores"]["contempt"]+response.json()[0]["scores"]["disgust"]+response.json()[0]["scores"]["anger"]+ response.json()[0]["scores"]["fear"])/5
+    return response
