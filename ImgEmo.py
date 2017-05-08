@@ -1,9 +1,14 @@
 import requests
 import json
+from picamera import PiCamera
+
 # pathToFileInDisk = r'/Users/grox/Desktop/image.jpg'
 
-def imgemo(path):
-    with open( path, 'rb' ) as f:
+def imgemo():
+    camera = PiCamera()
+    camera.resolution = (320, 240)
+    camera.capture('foo.jpg')
+    with open(r'./foo.jpg', 'rb') as f:
         data = f.read()
     _url = 'https://westus.api.cognitive.microsoft.com/emotion/v1.0/recognize'
     headers = dict()
